@@ -258,8 +258,13 @@ html{
 .about .about-content .right .table td{
     padding: 10px;
 }
+#gallery{
+    background: #07080B;
+}
+
 
 /* My Skills Section */
+
 
 #skills{
     background: #07080B;
@@ -581,7 +586,12 @@ section{
     pointer-events: auto;
     bottom: 30px;
 }
-
+.gallery-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
 
 
 
